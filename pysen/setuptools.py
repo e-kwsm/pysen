@@ -1,11 +1,11 @@
+import setuptools
+
 import argparse
 import distutils.core
 import functools
 import pathlib
 import sys
 from typing import Any, Callable, Dict, List, Optional, Sequence, Tuple, Type, Union
-
-import setuptools
 
 from .manifest import ManifestBase
 from .path import PathLikeType, wrap_path
